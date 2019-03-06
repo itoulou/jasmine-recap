@@ -1,4 +1,7 @@
 describe("FizzBuzz", function() {
+    beforeEach(function() {
+       fizzBuzz = new fizzBuzz(); 
+    });
     it("should return number", function() {
        expect(fizzBuzz(1)).toBe(1); 
     });
